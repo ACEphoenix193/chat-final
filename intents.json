@@ -67,21 +67,10 @@
         "When do I get my delivery?"
       ],
       "responses": [
-        "This website focuses on all languages, if you would like to contribute then pls contact us",
-        "Shipping takes 2-4 days"
-      ]
-    },
-    {
-      "tag": "funny",
-      "patterns": [
-        "Tell me a joke!",
-        "Tell me something funny!",
-        "Do you know a joke?"
-      ],
-      "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
+        "This website focuses on all languages, if you would like to contribute then pls contact us"
+        
       ]
     }
+    
   ]
 }
