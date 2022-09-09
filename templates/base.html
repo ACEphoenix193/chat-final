@@ -3,36 +3,78 @@
 <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Chatbot</title>
+    <title>Stop Cyberbulling with ISWK</title>
+    <link rel="shortcut icon" href="https://raw.githubusercontent.com/Pat12Gamer/ICT-2022/main/iswki-logo.png">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,700&family=Poppins:wght@200&display=swap" rel="stylesheet">
 </head>
 <body>
-<div class="container">
-    <div class="chatbox">
-        <div class="chatbox__support">
-            <div class="chatbox__header">
-                <div class="chatbox__image--header">
-                    <img src="https://img.icons8.com/external-flaticons-flat-flat-icons/344/external-chatbot-digital-marketing-flaticons-flat-flat-icons.png" width="48" height="48" alt="C0D3X">
+    <div class="container">
+        <div class="chatbox">
+            <div class="chatbox__support">
+                <div class="chatbox__header">
+                    <div class="chatbox__image--header">
+                        <img src="https://img.icons8.com/external-flaticons-flat-flat-icons/344/external-chatbot-digital-marketing-flaticons-flat-flat-icons.png" width="48" height="48" alt="C0D3X">
+                    </div>
+                    <div class="chatbox__content--header">
+                        <h4 class="chatbox__heading--header">Chat support-C0DY</h4>
+                        <p class="chatbox__description--header">WELCOME TO THE CHAT SUPPORT {-||C0D3X||-} </p>
+                    </div>
                 </div>
-                <div class="chatbox__content--header">
-                    <h4 class="chatbox__heading--header">Chat support-C0DY</h4>
-                    <p class="chatbox__description--header">WELCOME TO THE CHAT SUPPORT {-||C0D3X||-} </p>
+                <div class="chatbox__messages">
+                    <div></div>
+                </div>
+                <div class="chatbox__footer">
+                    <input type="text" placeholder="Write a message...">
+                    <button class="chatbox__send--footer send__button"><input type="image" name="SEND" 
+                        src="https://img.icons8.com/external-bartama-outline-32-bartama-graphic/344/external-email-e-mail-bartama-outline-32-bartama-graphic-7.png" alt="text" height="50" width="125"></button>
                 </div>
             </div>
-            <div class="chatbox__messages">
-                <div></div>
+            <div class="chatbox__button">
+                <button><img src="{{ url_for('static', filename='images/chatbox-icon.svg') }}" /></button>
             </div>
-            <div class="chatbox__footer">
-                <input type="text" placeholder="Write a message...">
-                <button class="chatbox__send--footer send__button"><input type="image" name="SEND" 
-                    src="https://img.icons8.com/external-bartama-outline-32-bartama-graphic/344/external-email-e-mail-bartama-outline-32-bartama-graphic-7.png" alt="text" height="50" width="125"></button>
-            </div>
-        </div>
-        <div class="chatbox__button">
-            <button><img src="{{ url_for('static', filename='images/chatbox-icon.svg') }}" /></button>
         </div>
     </div>
-</div>
+    <div class="container1">
+        <div class="menu">
+            <ul>
+                <li class="logo"><img src="https://raw.githubusercontent.com/Pat12Gamer/ICT-2022/main/iswki-logo.png"></li>
+                <a class="active"   href="/base">Home</a>
+                <a href="/team">Team</a>
+                <a href="https://forms.gle/HGpfaP7hCQDxH5LYA">Report</a> 
+            </ul>
+        </div>
+    </div>
+    <div class="Text">
+        <div>
+            <h1 class="h1">
+              Cyberbullying: What is it and how to stop it
+            </h1>
+            <h3 class="sub-title-center">
+                What teens want to know about cyberbullying.
+            </h3>
+        </div>
+        
+        <div class="super-img">
+            <img src="https://raw.githubusercontent.com/Pat12Gamer/ICT-2022/main/SID_2020_Hero_0.jpg" alt="">
+        </div>
+        <h4>What is cyberbullying?</h4>
+        <p>Cyberbullying is bullying with the use of digital technologies. It can take place on social media, messaging platforms, gaming platforms and mobile phones. It is repeated behaviour, aimed at scaring, angering or shaming those who are targeted. Examples include:</p>
+        <div class="lol">
+            <ul>
+                <li>spreading lies about or posting embarrassing photos or videos of someone on social media</li>
+                <li>sending hurtful, abusive or threatening messages, images or videos via messaging platforms</li>
+                <li>impersonating someone and sending mean messages to others on their behalf or through fake accounts.</li>
+            </ul>
+        </div>
+        <p>Face-to-face bullying and cyberbullying can often happen alongside each other. But cyberbullying leaves a digital footprint – a record that can prove useful and provide evidence to help stop the abuse.</p>
+        <hr/>
+            <blockquote>
+                <p>The first line of defense against cyberbullying could be you.</p>
+            </blockquote>
+        <hr/>
+    </div>
+
+    
 
     <script type =text/javascript>
         $SCRIPT_ROOT = {{ request.script_root|tojson }};
