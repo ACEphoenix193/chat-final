@@ -389,7 +389,7 @@ hr{
 }
 
 .logo{
-    background-image: url("amazon_logo.png");
+    background-image: url("https://github.com/sayu-2003/Amazon-clone/blob/main/amazon_logo.png?raw=true");
     background-size: cover;
     height: 50px;
     width: 100%;
@@ -511,7 +511,7 @@ nav-second{
 /**hero-section**/
 
 .hero-section{
-    background-image: url("hero_image.jpg");
+    background-image: url("https://github.com/sayu-2003/Amazon-clone/blob/main/hero_image.jpg?raw=true");
     background-size: cover;
     height: 350px;
     display:flex;
