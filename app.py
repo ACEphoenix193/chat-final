@@ -8,9 +8,6 @@ CORS(app)
 def index_get():
     return render_template("base.html")
 
-@app.get("/team")
-def team_get():
-    return render_template("team.html")
 
 @app.post("/predict")
 def predict():
